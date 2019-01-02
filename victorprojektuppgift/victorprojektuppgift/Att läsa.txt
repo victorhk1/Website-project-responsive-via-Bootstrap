@@ -1,0 +1,11 @@
+Gjord av Victor Haji Karimian
+S161348
+
+Validerad css på: https://jigsaw.w3.org/css-validator/
+
+Validerad html på: https://validator.w3.org/
+
+Aktuell länk: http://webbred2.utb.hb.se/~s161348/index.html
+
+
+-------------------------------------------------------------

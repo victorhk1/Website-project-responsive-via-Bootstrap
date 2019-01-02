@@ -1,0 +1,220 @@
+/* Globalt css innehåll
+-------------------------------------------------- */
+
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #5a5a5a;
+  position: relative;
+}
+p {
+  font-family: 'Slabo 35px', serif;
+}
+a {
+font-family: 'Slabo 45px', serif;
+}
+
+/* Gör om carousellerna / bildspelet
+-------------------------------------------------- */
+
+/* Carousel bas */
+.carousel {
+  margin-bottom: 4rem;
+
+}
+/* Texten på sliden i Carouselen */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Storlek */
+.carousel-item {
+  height: 32rem;
+
+}
+/* Bild proportioner*/
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+
+}
+
+
+/* Dem tre texterna under bildspelets proportioner, positionering */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+/* innehållets storlek på h2 */
+.marketing h2 {
+  font-weight: 500;
+}
+/* Positionering */
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+
+/* Ger ytrymme för innehållet via uppdelning */
+.uppdelning {
+  margin: 5rem 0;
+}
+
+
+/* Footerns positionering */
+footer {
+  margin-top: 5em;
+}
+
+/* sätter avstånd */
+.container-fluid{
+  padding-top: 10px;
+
+}
+/* Positionering för gömt objekt, alltså där spyscrollen skall gå och hämta innehåll */
+#seevardigheter {
+
+    display: block;
+    position: relative;
+    top: -250px;
+    visibility: hidden;
+
+}
+/* Positionering för gömt objekt, alltså där spyscrollen skall gå och hämta innehåll */
+#kontaktinfo {
+    display: block;
+    position: relative;
+    top: -250px;
+    visibility: hidden;
+
+}
+/*Positionering för gömt objekt, alltså där spyscrollen skall gå och hämta innehåll */
+#brantbild {
+    display: block;
+    position: relative;
+    top: -250px;
+    visibility: hidden;
+
+}
+/*Positionering för gömt objekt, alltså där spyscrollen skall gå och hämta innehåll */
+#kultcenterbild{
+    display: block;
+    position: relative;
+    top: -250px;
+    visibility: hidden;
+
+}
+
+/* Positionering för gömt objekt, alltså där spyscrollen skall gå och hämta innehåll */
+#lankar {
+    display: block;
+    position: relative;
+    top: -250px;
+    visibility: hidden;
+}
+/* Byter om fonten till Slabo 40px */
+ #Carouseltextbig {
+  font-family: 'Slabo 40px', serif;
+}
+/* Byter om fonten till Slabo 40px */
+.titeltexts {
+  font-family: 'Slabo 40px', serif;
+}
+/* Sätter funktioner,proportioner för iframe */
+iframe {
+  border:none;
+  overflow:hidden; 
+}
+/* Gömt objekt */
+#fbtexter {
+  visibility: hidden;
+}
+/* Responsiva funktioner */
+
+/* Vid 40 em (640px) fixa till text storleken */
+@media (min-width: 40em) {
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+/* sätter typsnitts storlek */
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+/* Sätter bredd vid 992px på bildspel */
+@media (min-width: 992px) {
+  #mycarousel {
+    width: 50%;
+  }
+}
+/*Vid 62 em (992px) fixa till text avstånd, proportion */ 
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+
+/* Vid 1024px fixa till iframe bredd */
+@media (max-width: 1024px) {
+  iframe {
+    width: 99%;
+  }
+}
+/* Vid 780px fixa till facebook innehållet (gömd med utger position)*/
+@media (max-width: 780px) {
+  #fbcontent {
+    width: 0%;
+    height: 0%;
+  }
+}
+/* Visar tidigare gömd text vid 780px */
+@media (max-width: 780px) {
+  #fbtexter {
+    visibility:visible; 
+  }
+}
+
+/* Vid 800px visa ej Carousel */
+@media (max-width:800px){
+  #myCarousel{
+display: none;
+  }
+}
+/* Vid 800px skjut ner innehåll med rounded-circle */
+@media (max-width:800px){
+  .rounded-circle{
+margin-top: 25px;
+  }
+}
+
+/* Vid 574px skjut ner innehåll med rounded-circle */
+@media (max-width:574px){
+  .rounded-circle{
+margin-top: 55px;
+  }
+}
+
+/* Vid 460px skjut ner innehåll med rounded-circle */
+@media (max-width:460px){
+  .rounded-circle{
+margin-top: 100px;
+margin-bottom: 0px
+  }
+}
+
+
+/* Vid 336px skjut ner innehåll med rounded-circle */
+@media (max-width:336px){
+  .rounded-circle{
+margin-top: 100px;
+margin-bottom: 0px
+  }
+}
+
